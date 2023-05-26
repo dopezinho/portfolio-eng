@@ -151,13 +151,22 @@ h1 {
 }
 
 h2 {
-    font-weight: 300;
-    font-size: 1.5rem;
+    color: #6958ca;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 h3 {
     font-weight: 700;
     font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 1.5rem;
 }
 
 .icon-pointer {
@@ -205,4 +214,30 @@ h3 {
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+.about {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+.about-img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.about-img img {
+    border-radius: 15px;
+    height: 300px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
 }
