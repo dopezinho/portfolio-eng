@@ -140,7 +140,7 @@ a {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    min-height: 90vh;
     justify-content: center;
 }
 
@@ -217,6 +217,7 @@ h5 {
 .tech-stack {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -271,10 +272,46 @@ h5 {
     justify-content: center;
 }
 
+@media (max-width: 1000px) {
+    .main-info {
+        flex-direction: column-reverse;
+    }
+    .main-info-profile {
+        display: flex;
+        max-width: 30%;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .about-text {
+        width: 80%;
+    }
+    .portfolio {
+        justify-content: center;
+        margin: 50px;
+        width: 80%;
+    }
+    .contact-info {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact-info-spec {
+        justify-content: center;
+        width: 80%;
+    }
+  }
+
 footer {
     align-items: center;
     background-color: #000;
     display: flex;
     justify-content: space-around;
     min-height: 15vh;
+}
+
+@media (max-width: 1000px) {
+    footer {
+        flex-direction: column;
+        padding: 20px;
+    }
 }
