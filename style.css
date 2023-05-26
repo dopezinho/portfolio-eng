@@ -160,6 +160,12 @@ h3 {
     font-size: 2rem;
 }
 
+.icon-pointer {
+    cursor: pointer;
+    height: 60px;
+    margin: 10px 30px;
+}
+
 .icon {
     height: 60px;
     margin: 10px 30px;
@@ -192,16 +198,10 @@ h3 {
 
 .main-info-profile img {
     border-radius: 200px;
-    height: 200px;
+    height: 250px;
 }
 
 .tech-stack {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.design-stack {
     align-items: center;
     display: flex;
     justify-content: center;
