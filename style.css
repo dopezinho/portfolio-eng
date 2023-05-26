@@ -277,8 +277,11 @@ h5 {
         flex-direction: column-reverse;
     }
     .main-info-profile {
-        display: flex;
-        max-width: 30%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .main-info-text {
+        margin: 10px 50px;
     }
     .about {
         flex-direction: column;
