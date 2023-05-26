@@ -169,6 +169,12 @@ h4 {
     font-size: 1.5rem;
 }
 
+h5 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
 .icon-pointer {
     cursor: pointer;
     height: 60px;
@@ -263,4 +269,12 @@ h4 {
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+footer {
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    min-height: 15vh;
 }
