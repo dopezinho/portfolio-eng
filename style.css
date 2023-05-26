@@ -194,8 +194,6 @@ h4 {
     margin: 100px 50px;
 }
 
-
-
 .main-info-social {
     display: flex;
 }
@@ -240,4 +238,29 @@ h4 {
     flex-direction: column;
     justify-content: center;
     width: 50%;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    min-height: 50vh;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    min-height: 50vh;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info-spec {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
