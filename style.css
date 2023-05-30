@@ -59,6 +59,13 @@ p {
     font-weight: 100;
 }
 
+/*  IMAGES  */
+
+img {
+    height: 30px;
+    margin: 0 3vh;
+}
+
 /*  LEFT  */
 
 .navig {
@@ -68,16 +75,28 @@ p {
 .nav-menu {
     background-color: #2d2d2d;
     border-radius: 15px;
-    height: 14.5vh;
     margin: 0 0.5vh;
     margin-bottom: 0.5vh;
+}
+
+.nav-menu-home, .nav-menu-contact {
+    align-items: center;
+    display: flex;
+    height: 7.25vh;
 }
 
 .projects {
     background-color: #2d2d2d;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
     height: 65vh;
     margin: 0 0.5vh;
+}
+
+.projects-head {
+    display: flex;
+    padding: 1vh 0;
 }
 
 /*  CENTER  */
