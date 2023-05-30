@@ -169,6 +169,15 @@ img {
     min-width: 20%;
 }
 
+.inspirations-head {
+    display: flex;
+    padding: 1vh 0;
+}
+
+.inspirations-content {
+    display: flex;
+}
+
 footer {
     background-color: #000;
     color: #fff;
