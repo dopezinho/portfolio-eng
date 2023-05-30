@@ -10,7 +10,7 @@
 header {
     background-color: #000;
     color: #fff;
-    height: 5vh;
+    height: 1vh;
 }
 
 main {
@@ -23,33 +23,33 @@ main {
 /*  FONTS  */
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 800;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 h5 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 100;
 }
 
 li {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     list-style: none;
 }
@@ -62,27 +62,32 @@ p {
 /*  IMAGES  */
 
 img {
-    height: 30px;
-    margin: 0 3vh;
+    height: 4vh;
+    margin: 0 1.5vh;
+}
+
+svg {
+    height: 6vh;
 }
 
 /*  LEFT  */
 
-.navig {
-    min-width: 15%;
-}
-
 .nav-menu {
     background-color: #2d2d2d;
     border-radius: 15px;
-    margin: 0 0.5vh;
-    margin-bottom: 0.5vh;
+    margin: 0 1vh;
+    margin-bottom: 1vh;
+    padding: 1vh 2.5vh 1vh 1.5vh;
 }
 
 .nav-menu-home, .nav-menu-contact {
     align-items: center;
     display: flex;
-    height: 7.25vh;
+    height: 7vh;
+}
+
+.nav-menu-home-icon {
+    height: 3.5vh;
 }
 
 .projects {
@@ -90,18 +95,21 @@ img {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    height: 65vh;
-    justify-content: space-around;
-    margin: 0 0.5vh;
+    height: 71vh;
+    margin: 0 1vh;
+    padding: 0 1vh;
 }
 
 .projects-head {
+    align-items: center;
     display: flex;
-    padding: 1vh 0;
+    padding: 2vh 0;
 }
 
 .projects-content {
+    align-items: center;
     display: flex;
+    padding: 1.5vh 0;
 }
 
 /*  CENTER  */
@@ -111,7 +119,7 @@ img {
     border-radius: 15px 15px 0 0;
     display: flex;
     flex-direction: column;
-    height: 30vh;
+    height: 35vh;
     justify-content: space-around;
     padding-left: 5vh;
 }
@@ -139,14 +147,14 @@ img {
     background-color: #2d2d2d;
     border-radius: 0 0 15px 15px;
     display: flex;
-    height: 50vh;
+    height: 53vh;
     justify-content: center;
 }
 
 .content-info-left {
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 53vh;
     justify-content: space-around;
     max-width: 70%;
 }
@@ -168,23 +176,25 @@ img {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 88vh;
     justify-content: space-around;
-    margin: 0 0.5vh;
-    min-width: 20%;
+    margin: 0 1vh;
+    padding: 0.5vh 2.5vh 0.5vh 1vh;
 }
 
 .inspirations-head {
+    align-items: center;
     display: flex;
-    padding: 1vh 0;
+    padding-top: 0.5vh;
 }
 
 .inspirations-content {
+    align-items: center;
     display: flex;
 }
 
 footer {
     background-color: #000;
     color: #fff;
-    height: 15vh;
+    height: 11vh;
 }
