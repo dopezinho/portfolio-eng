@@ -91,12 +91,17 @@ img {
     display: flex;
     flex-direction: column;
     height: 65vh;
+    justify-content: space-around;
     margin: 0 0.5vh;
 }
 
 .projects-head {
     display: flex;
     padding: 1vh 0;
+}
+
+.projects-content {
+    display: flex;
 }
 
 /*  CENTER  */
