@@ -74,7 +74,7 @@ svg {
 
 .nav-menu {
     background-color: #2d2d2d;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 0 1vh;
     margin-bottom: 1vh;
     padding: 1vh 2.5vh 1vh 1.5vh;
@@ -93,7 +93,7 @@ svg {
 
 .projects {
     background-color: #2d2d2d;
-    border-radius: 15px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     height: 71vh;
@@ -117,7 +117,7 @@ svg {
 
 .content-head {
     background-color: #232323;
-    border-radius: 15px 15px 0 0;
+    border-radius: 10px 10px 0 0;
     display: flex;
     flex-direction: column;
     height: 35vh;
@@ -146,7 +146,7 @@ svg {
 .content-info {
     align-items: center;
     background-color: #2d2d2d;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 10px 10px;
     display: flex;
     height: 53vh;
     justify-content: center;
@@ -174,7 +174,7 @@ svg {
 
 .inspirations {
     background-color: #2d2d2d;
-    border-radius: 15px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     height: 88vh;
@@ -214,7 +214,7 @@ footer {
 }
 
 .footer-left-icon img {
-    height: 3vh;
+    height: 2vh;
 }
 
 .footer-center {
@@ -231,7 +231,7 @@ footer {
 }
 
 .footer-center-bfp-icon {
-    height: 4vh;
+    height: 3vh;
 }
 
 .footer-center-tbar-img {
@@ -245,5 +245,5 @@ footer {
 }
 
 .footer-right img {
-    height: 5vh;
+    height: 4vh;
 }
