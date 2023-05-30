@@ -146,6 +146,7 @@ svg {
     background-color: #2d2d2d;
     border-radius: 0 0 10px 10px;
     display: flex;
+    flex-direction: column;
     height: 53vh;
     justify-content: center;
     overflow-y: scroll;
@@ -156,7 +157,6 @@ svg {
     display: flex;
     flex-direction: column;
     height: 53vh;
-    justify-content: space-around;
     padding: 0 5vh;
 }
 
@@ -188,23 +188,24 @@ svg {
     display: flex;
     flex-direction: column;
     height: 83vh;
-    justify-content: space-around;
     margin: 0 1vh;
-    min-width: 280px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    padding: 0.5vh 0.5vh 0.5vh 1vh;
+    min-width: 20%;
 }
 
 .inspirations-head {
     align-items: center;
     display: flex;
-    padding-top: 0.5vh;
+    padding: 3vh 1vh;
 }
 
 .inspirations-content {
+    overflow-y: scroll;
+}
+
+.inspirations-content-container {
     align-items: center;
     display: flex;
+    padding: 2vh 0 3vh 1vh;
 }
 
 /*  FOOTER  */
