@@ -194,6 +194,8 @@ svg {
     display: flex;
 }
 
+/*  FOOTER  */
+
 footer {
     background-color: #000;
     color: #fff;
@@ -205,6 +207,14 @@ footer {
 .footer-left {
     align-items: center;
     display: flex;
+}
+
+.footer-left-img img {
+    height: 7vh;
+}
+
+.footer-left-icon img {
+    height: 3vh;
 }
 
 .footer-center {
@@ -231,4 +241,9 @@ footer {
 .footer-right {
     align-items: center;
     display: flex;
+    padding-right: 1vh;
+}
+
+.footer-right img {
+    height: 5vh;
 }
