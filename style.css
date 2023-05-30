@@ -78,6 +78,12 @@ svg {
     margin: 0 1vh;
     margin-bottom: 1vh;
     padding: 1vh;
+    transition: 1s ease;
+}
+
+.nav-menu:hover {    
+    filter: contrast(80%);
+    transition: 0.5 ease;
 }
 
 .nav-menu-home, .nav-menu-contact {
@@ -99,6 +105,12 @@ svg {
     height: 66vh;
     margin: 0 1vh;
     padding: 0 1vh;
+    transition: 1s ease;
+}
+
+.projects:hover {    
+    filter: contrast(80%);
+    transition: 0.5 ease;
 }
 
 .projects-head {
@@ -127,13 +139,24 @@ svg {
 /*  CENTER  */
 
 .content-head {
-    background-color: #23232388;
+    background-image: url(./assets/cr5.png);
+    background-position: left;
     border-radius: 10px 10px 0 0;
     display: flex;
     flex-direction: column;
     height: 25vh;
     justify-content: space-around;
     padding-left: 5vh;
+    transition: ease 1s;
+}
+
+.content-head:hover {
+    filter: contrast(85%);
+    transition: ease 0.5s;
+}
+
+.content:hover .content-info{
+    border-radius: 0 0 10px 10px;
 }
 
 .content-head-up {
@@ -152,13 +175,19 @@ svg {
 
 .content-info {
     background-color: #23232388;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     display: flex;
     flex-direction: column;
     gap: 3vh;
     height: 58vh;
     overflow-y: scroll;
     padding: 3vh 2vh 5vh 5vh;
+    transition: 1s ease;
+}
+
+.content-info:hover {
+    filter: contrast(80%);
+    transition: 0.5 ease;
 }
 
 .content-info-icons img {
@@ -175,6 +204,12 @@ svg {
     height: 83vh;
     margin: 0 1vh;
     min-width: 20%;
+    transition: 1s ease;
+}
+
+.inspirations:hover {    
+    filter: contrast(80%);
+    transition: 0.5 ease;
 }
 
 .inspirations-head {
