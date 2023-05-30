@@ -197,5 +197,38 @@ svg {
 footer {
     background-color: #000;
     color: #fff;
+    display: flex;
     height: 11vh;
+    justify-content: space-between;
+}
+
+.footer-left {
+    align-items: center;
+    display: flex;
+}
+
+.footer-center {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-center-bfp, .footer-center-tbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-center-bfp-icon {
+    height: 4vh;
+}
+
+.footer-center-tbar-img {
+    width: 50vh;
+}
+
+.footer-right {
+    align-items: center;
+    display: flex;
 }
