@@ -23,7 +23,7 @@ main {
 /*  FONTS  */
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
 }
 
@@ -34,7 +34,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -73,7 +73,7 @@ svg {
 /*  LEFT  */
 
 .nav-menu {
-    background-color: #2d2d2d;
+    background-color: #23232388;
     border-radius: 10px;
     margin: 0 1vh;
     margin-bottom: 1vh;
@@ -92,14 +92,12 @@ svg {
 }
 
 .projects {
-    background-color: #2d2d2d;
+    background-color: #23232388;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     height: 66vh;
     margin: 0 1vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
     padding: 0 1vh;
 }
 
@@ -110,19 +108,30 @@ svg {
 }
 
 .projects-content {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.projects-content-container {
     align-items: center;
     display: flex;
-    padding: 1.5vh 0;
+    padding: 2vh 0;
+}
+
+.projects-content img {
+    height: 6vh;
 }
 
 /*  CENTER  */
 
 .content-head {
-    background-color: #232323;
+    background-color: #23232388;
     border-radius: 10px 10px 0 0;
     display: flex;
     flex-direction: column;
-    height: 30vh;
+    height: 25vh;
     justify-content: space-around;
     padding-left: 5vh;
 }
@@ -142,48 +151,24 @@ svg {
 }
 
 .content-info {
-    align-items: center;
-    background-color: #2d2d2d;
+    background-color: #23232388;
     border-radius: 0 0 10px 10px;
     display: flex;
     flex-direction: column;
-    height: 53vh;
-    justify-content: center;
+    gap: 3vh;
+    height: 58vh;
     overflow-y: scroll;
-    overflow-x: hidden;
+    padding: 3vh 2vh 5vh 5vh;
 }
 
-.content-info-left {
-    display: flex;
-    flex-direction: column;
-    height: 53vh;
-    padding: 0 5vh;
-}
-
-.content-info-right {
-    display: flex;
-    flex-direction: column;
-    gap: 3vh;
-    padding: 0 5vh;
-    text-align: center;
-}
-
-.content-info-right-icons {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 3vh;
-}
-
-.content-info-right-icons img {
-    height: 5vh;
+.content-info-icons img {
+    height: 10vh;
 }
 
 /*  RIGHT  */
 
 .inspirations {
-    background-color: #2d2d2d;
+    background-color: #23232388;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -195,11 +180,15 @@ svg {
 .inspirations-head {
     align-items: center;
     display: flex;
-    padding: 3vh 1vh;
+    padding: 4vh 0 4vh 2vh;
 }
 
 .inspirations-content {
     overflow-y: scroll;
+}
+
+.inspirations-content-img {
+    height: 6vh;
 }
 
 .inspirations-content-container {
