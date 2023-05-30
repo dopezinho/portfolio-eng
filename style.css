@@ -84,6 +84,7 @@ svg {
     align-items: center;
     display: flex;
     height: 7vh;
+    padding-right: 15vh;
 }
 
 .nav-menu-home-icon {
