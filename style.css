@@ -341,7 +341,7 @@ footer {
     .content-info {
         border-radius: 0px;
         height: 77vh;
-        padding-bottom: 9vh;
+        padding-bottom: 8vh;
     }
     .inspirations {
         display: none;
@@ -349,7 +349,7 @@ footer {
     footer {
         background-color: #000000e5;
         bottom: 0;
-        height: 8vh;
+        height: 7vh;
         overflow: hidden;
         position: fixed;
         width: 100%;
@@ -365,10 +365,10 @@ footer {
         width: 100%;
     }
     .footer-mobile-icon-big {
-        height: 40%;
+        height: 35%;
     }
     .footer-mobile-icon-small {
-        height: 55%;
+        height: 50%;
     }
 }
 
