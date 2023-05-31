@@ -75,6 +75,7 @@ svg {
 .nav-menu {
     background-color: #23232388;
     border-radius: 10px;
+    cursor: pointer;
     margin: 0 1vh;
     margin-bottom: 1vh;
     padding: 1vh;
@@ -88,9 +89,16 @@ svg {
 
 .nav-menu-home, .nav-menu-contact {
     align-items: center;
+    border-radius: 10px;
     display: flex;
     height: 7vh;
     padding-right: 15vh;
+    transition: 1s ease;
+}
+
+.nav-menu-home:hover, .nav-menu-contact:hover {
+    background-color: #232323;
+    transition: 0.5s ease;
 }
 
 .nav-menu-home-icon {
@@ -115,8 +123,17 @@ svg {
 
 .projects-head {
     align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
     display: flex;
+    margin-top: 1vh;
     padding: 2vh 0;
+    transition: 1s ease;
+}
+
+.projects-head:hover {
+    background-color: #232323;
+    transition: 0.5s ease;
 }
 
 .projects-content {
@@ -128,8 +145,17 @@ svg {
 
 .projects-content-container {
     align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
     display: flex;
+    margin-right: 1vh;
     padding: 2vh 0;
+    transition: 1s ease;
+}
+
+.projects-content-container:hover {
+    background-color: #232323;
+    transition: 0.5s ease;
 }
 
 .projects-content img {
@@ -173,6 +199,10 @@ svg {
     width: 30%;
 }
 
+.content-head-up-right img, .content-head-up-right svg {
+    cursor: pointer;
+}
+
 .content-info {
     background-color: #23232388;
     border-radius: 10px 10px 10px 10px;
@@ -207,7 +237,7 @@ svg {
     transition: 1s ease;
 }
 
-.inspirations:hover {    
+.inspirations:hover {
     filter: contrast(80%);
     transition: 0.5 ease;
 }
@@ -228,8 +258,17 @@ svg {
 
 .inspirations-content-container {
     align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
     display: flex;
-    padding: 2vh 0 3vh 1vh;
+    margin: 0 1vh;
+    padding: 2vh 1vh;
+    transition: 1s ease;
+}
+
+.inspirations-content-container:hover {
+    background-color: #232323;
+    transition: 0.5s ease;
 }
 
 /*  FOOTER  */
