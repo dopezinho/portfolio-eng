@@ -362,7 +362,10 @@ footer {
         justify-content: space-around;
         width: 100%;
     }
-    .footer-mobile img {
+    .footer-mobile-icon-big {
+        height: 40%;
+    }
+    .footer-mobile-icon-small {
         height: 50%;
     }
 }
