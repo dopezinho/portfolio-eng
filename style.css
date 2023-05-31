@@ -204,6 +204,7 @@ svg {
 }
 
 .content-info {
+    align-items: center;
     background-color: #23232388;
     border-radius: 10px 10px 10px 10px;
     display: flex;
