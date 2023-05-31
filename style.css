@@ -362,7 +362,7 @@ footer {
     footer {
         background-color: #000000e5;
         bottom: 0;
-        height: 7vh;
+        height: 10vh;
         overflow: hidden;
         position: fixed;
         width: 100%;
@@ -377,11 +377,11 @@ footer {
         padding: 0 3vh;
         width: 100%;
     }
-    .footer-mobile-icon-big {
-        height: 35%;
-    }
-    .footer-mobile-icon-small {
-        height: 50%;
+    .footer-mobile-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
