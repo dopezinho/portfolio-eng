@@ -377,11 +377,14 @@ footer {
         padding: 0 3vh;
         width: 100%;
     }
-    .footer-mobile-container {
+    .footer-mobile-container, .footer-mobile-container-small {
         align-items: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .footer-mobile-container img {
+        height: 3vh;
     }
 }
 
