@@ -173,7 +173,7 @@ svg {
     height: 25vh;
     justify-content: space-around;
     padding-left: 5vh;
-    transition: ease 1s;
+    transition: ease 2s;
 }
 
 .content-head:hover {
@@ -233,7 +233,7 @@ svg {
     flex-direction: column;
     height: 83vh;
     margin: 0 1vh;
-    min-width: 17%;
+    min-width: 270px;
     transition: 1s ease;
 }
 
@@ -253,7 +253,7 @@ svg {
 }
 
 .inspirations-content-img {
-    height: 6vh;
+    height: 50px;
 }
 
 .inspirations-content-container {
@@ -323,6 +323,42 @@ footer {
 
 .footer-right img {
     height: 4vh;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+/*  Media Queries  */
+
+@media only screen and (max-width: 1200px) {
+    header {
+        height: 0;
+    }
+    .navig {
+        display: none;
+    }
+    .content-info {
+        border-radius: 0px;
+        height: 77vh;
+    }
+    .inspirations {
+        display: none;
+    }
+    footer {
+        background-color: #0000008c;
+        bottom: 0;
+        height: 10vh;
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+      }
+    .footer-left, .footer-center, .footer-right {
+        display: none;
+    }
+    .footer-mobile {
+        display: flex;
+    }
 }
 
 /*  WEBKIT  */
