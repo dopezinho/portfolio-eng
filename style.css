@@ -385,7 +385,7 @@ footer {
     }
     .footer-mobile-container img {
         height: 3vh;
-        padding-bottom: 1vh;
+        margin-bottom: 1vh;
     }
 }
 
