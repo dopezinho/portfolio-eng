@@ -343,6 +343,9 @@ footer {
         height: 77vh;
         padding-bottom: 8vh;
     }
+    .content-head-up-right {
+        width: 40%;
+    }
     .inspirations {
         display: none;
     }
