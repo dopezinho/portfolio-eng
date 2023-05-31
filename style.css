@@ -341,7 +341,7 @@ footer {
     .content-info {
         border-radius: 0px;
         height: 77vh;
-        margin-bottom: 5vh;
+        margin-bottom: 2vh;
     }
     .inspirations {
         display: none;
@@ -361,6 +361,7 @@ footer {
         align-items: center;
         display: flex;
         justify-content: space-around;
+        padding: 0 5vh;
         width: 100%;
     }
     .footer-mobile-icon-big {
