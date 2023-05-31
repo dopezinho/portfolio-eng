@@ -221,6 +221,12 @@ svg {
     transition: 0.5 ease;
 }
 
+.content-info-icons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 .content-info-icons img {
     height: 10vh;
 }
