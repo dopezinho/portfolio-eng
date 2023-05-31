@@ -285,3 +285,26 @@ footer {
 .footer-right img {
     height: 4vh;
 }
+
+/*  WEBKIT  */
+
+/* width */
+::-webkit-scrollbar {
+    width: 1vh;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #23232300;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff83;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+  }
