@@ -79,7 +79,7 @@ svg {
     margin: 0 1vh;
     margin-bottom: 1vh;
     padding: 1vh;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 .nav-menu:hover {    
@@ -93,12 +93,12 @@ svg {
     display: flex;
     height: 7vh;
     padding-right: 15vh;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 .nav-menu-home:hover, .nav-menu-contact:hover {
     background-color: #232323;
-    transition: 0.5s ease;
+    transition: 0.2s ease;
 }
 
 .nav-menu-home-icon {
@@ -113,7 +113,7 @@ svg {
     height: 66vh;
     margin: 0 1vh;
     padding: 0 1vh;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 .projects:hover {    
@@ -128,12 +128,12 @@ svg {
     display: flex;
     margin-top: 1vh;
     padding: 2vh 0;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 .projects-head:hover {
     background-color: #232323;
-    transition: 0.5s ease;
+    transition: 0.2s ease;
 }
 
 .projects-content {
@@ -150,12 +150,12 @@ svg {
     display: flex;
     margin-right: 1vh;
     padding: 2vh 0;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 .projects-content-container:hover {
     background-color: #232323;
-    transition: 0.5s ease;
+    transition: 0.2s ease;
 }
 
 .projects-content img {
@@ -178,7 +178,7 @@ svg {
 
 .content-head:hover {
     filter: contrast(85%);
-    transition: ease 0.5s;
+    transition: ease 0.2s;
 }
 
 .content:hover .content-info{
@@ -213,7 +213,7 @@ svg {
     height: 58vh;
     overflow-y: scroll;
     padding: 3vh 2vh 5vh 5vh;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 .content-info:hover {
@@ -243,7 +243,7 @@ svg {
     height: 83vh;
     margin: 0 1vh;
     min-width: 270px;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 .inspirations:hover {
@@ -272,12 +272,12 @@ svg {
     display: flex;
     margin: 0 1vh;
     padding: 2vh 1vh;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 .inspirations-content-container:hover {
     background-color: #232323;
-    transition: 0.5s ease;
+    transition: 0.2s ease;
 }
 
 /*  FOOTER  */
