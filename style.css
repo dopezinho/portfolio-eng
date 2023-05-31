@@ -224,6 +224,7 @@ svg {
 .content-info-icons {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
