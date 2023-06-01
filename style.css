@@ -338,7 +338,7 @@ footer {
     display: none;
 }
 
-  /*  JS CLASSES  */
+/*  JS CLASSES  */
 
   /* Contact */
 
@@ -386,9 +386,61 @@ footer {
     height: 70px;
     min-width: 260px;
     padding-left: 40px;
+}
 
+  /* Projects */
 
-}/*  Media Queries  */
+.proJ {
+    background-color: #23232388;
+    border-radius: 10px;
+    height: 83vh;
+    overflow-y: scroll;
+}
+
+.proJ-head {
+    display: flex;
+    padding: 5vh 2vh;
+}
+
+.proJ-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proJ-info-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh 0;
+    width: 100%;
+}
+
+.proJ-info-container h4 {
+    display: flex;
+    padding: 0 2vh;
+    justify-content: center;
+    width: 40%;
+}
+
+.proJ-info-container p {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2vh;
+    width: 30%;
+}
+
+.proJ-info-container-main {
+    align-items: center;
+    display: flex;
+    padding-left: 2vh;
+    width: 30%;
+}
+
+.proJ-info-container-main img {
+    height: 10vh;
+}
+
+/*  Media Queries  */
 
 @media only screen and (max-width: 1200px) {
     header {
