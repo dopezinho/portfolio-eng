@@ -350,6 +350,7 @@ footer {
 }
 
 .contact-head {
+    align-items: center;
     display: flex;
     padding: 5vh 2vh;
 }
@@ -438,6 +439,9 @@ footer {
     }
     .contact {
         height: 100vh;
+    }
+    .contact-head {
+        justify-content: center;
     }
 }
 
