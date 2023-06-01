@@ -398,6 +398,7 @@ footer {
 }
 
 .proJ-head {
+    align-items: center;
     display: flex;
     padding: 5vh 2vh;
 }
