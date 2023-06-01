@@ -413,6 +413,7 @@ footer {
     border-radius: 10px;
     height: 83vh;
     overflow-y: scroll;
+    transition: 1s ease;
 }
 .proJ:hover {    
     filter: contrast(80%);
@@ -432,6 +433,7 @@ footer {
 
 .proJ-info-container {
     align-items: center;
+    cursor: pointer;
     display: flex;
     justify-content: space-around;
     padding: 2vh 0;
