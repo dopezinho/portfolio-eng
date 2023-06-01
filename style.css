@@ -439,6 +439,7 @@ footer {
     }
     .contact {
         height: 100vh;
+        margin-bottom: 9vh;
     }
     .contact-head {
         justify-content: center;
