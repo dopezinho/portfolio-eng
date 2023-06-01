@@ -3,7 +3,7 @@ let centerContent = document.getElementById("center-content")
 /*  LOAD HOME  */
 
 function clickbtnHome() {
-    loadHome("home.html", centerContent)
+    window.open.index.html
 }
 
 function loadHome(url, Xelement) {

@@ -283,6 +283,7 @@ svg {
 /*  FOOTER  */
 
 footer {
+    align-items: center;
     background-color: #000;
     color: #fff;
     display: flex;
@@ -304,10 +305,6 @@ footer {
 }
 
 .footer-center {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .footer-center-bfp, .footer-center-tbar {
@@ -506,8 +503,6 @@ footer {
     }
     .proJ-info-container {
         justify-content: space-between;
-    }    
-    .proJ-info-container-main {
     }
     .proJ-info-container h4 {
         display: none;
