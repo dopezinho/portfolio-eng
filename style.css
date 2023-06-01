@@ -338,7 +338,56 @@ footer {
     display: none;
 }
 
-/*  Media Queries  */
+  /*  JS CLASSES  */
+
+  /* Contact */
+
+.contact {
+    background-color: #23232388;
+    border-radius: 10px;
+    height: 83vh;
+    overflow-x: scroll;
+}
+
+.contact-head {
+    display: flex;
+    padding: 5vh 2vh;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-info-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 2vh 5vh;
+}
+
+.contact-info-container-image {
+    align-items: center;
+    background-color: #000;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    width: 70px;
+}
+
+.contact-info-container-text {
+    align-items: center;
+    background-color: #232323;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    height: 70px;
+    min-width: 260px;
+    padding-left: 40px;
+
+
+}/*  Media Queries  */
 
 @media only screen and (max-width: 1200px) {
     header {
@@ -387,7 +436,11 @@ footer {
         height: 3vh;
         margin-bottom: 0.5vh;
     }
+    .contact {
+        height: 100vh;
+    }
 }
+
 
 /*  WEBKIT  */
 
@@ -412,50 +465,3 @@ footer {
     background: #fff;
   }
 
-  /*  JS CLASSES  */
-
-  /* Contact */
-
-.contact {
-    background-color: #23232388;
-    border-radius: 10px;
-    height: 83vh;
-}
-
-.contact-head {
-    display: flex;
-    padding: 5vh 2vh;
-}
-
-.contact-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.contact-info-container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    padding: 2vh 5vh;
-}
-
-.contact-info-container-image {
-    align-items: center;
-    background-color: #000;
-    border-radius: 10px 0 0 10px;
-    display: flex;
-    height: 70px;
-    justify-content: center;
-    width: 70px;
-}
-
-.contact-info-container-text {
-    align-items: center;
-    background-color: #232323;
-    border-radius: 0 10px 10px 0;
-    display: flex;
-    height: 70px;
-    min-width: 260px;
-    padding-left: 40px;
-}
