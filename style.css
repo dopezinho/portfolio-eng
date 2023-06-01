@@ -513,7 +513,7 @@ footer {
         display: none;
     }
     .proJ-info-container p {
-        width: auto;
+        padding: 0;
     }
 }
 
