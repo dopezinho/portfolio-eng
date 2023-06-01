@@ -503,6 +503,9 @@ footer {
     .proJ-head {
         justify-content: center;
     }
+    .proJ-info-container h4 {
+        display: none;
+    }
 }
 
 
