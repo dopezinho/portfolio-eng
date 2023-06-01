@@ -507,6 +507,13 @@ footer {
     .proJ-info-container h4 {
         display: none;
     }
+    .proJ-info-container p {
+        width: 50%;
+    }
+    
+    .proJ-info-container-main {
+        width: 50%;
+    }
 }
 
 
