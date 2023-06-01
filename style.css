@@ -491,9 +491,16 @@ footer {
     }
     .contact {
         height: 100vh;
-        margin-bottom: 9vh;
+        margin-bottom: 8vh;
     }
     .contact-head {
+        justify-content: center;
+    }
+    .proJ {
+        height: 100vh;
+        margin-bottom: 8vh;
+    }
+    .proJ-head {
         justify-content: center;
     }
 }
