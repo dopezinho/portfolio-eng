@@ -304,9 +304,6 @@ footer {
     height: 2vh;
 }
 
-.footer-center {
-}
-
 .footer-center-bfp, .footer-center-tbar {
     display: flex;
     align-items: center;
