@@ -1,50 +1,18 @@
 let centerContent = document.getElementById("center-content")
 
-/*  LOAD HOME  */
-
-function clickbtnHome() {
-    window.open.index.html
-}
-
-function loadHome(url, Xelement) {
-    if (window.XMLHttpRequest) {
-        xmlhttp = new XMLHttpRequest()
-    }
-    xmlhttp.onreadystatechange = function() {
-        if (xmlhttp.readyState == 4 && xmlhttp.status ==200) {
-            Xelement.innerHTML = xmlhttp.responseText
-        }
-    }
-    xmlhttp.open("GET", url)
-    xmlhttp.send()
-}
-
 /*  LOAD CONTACT  */
 
 function clickbtnContact() {
-    loadContact("contact.html", centerContent)
-}
-
-function loadContact(url, Xelement) {
-    if (window.XMLHttpRequest) {
-        xmlhttp = new XMLHttpRequest()
-    }
-    xmlhttp.onreadystatechange = function() {
-        if (xmlhttp.readyState == 4 && xmlhttp.status ==200) {
-            Xelement.innerHTML = xmlhttp.responseText
-        }
-    }
-    xmlhttp.open("GET", url)
-    xmlhttp.send()
+    load("contact.html", centerContent)
 }
 
 /*  LOAD PROJECTS  */
 
 function clickbtnProjects() {
-    loadContact("projects.html", centerContent)
+    load("projects.html", centerContent)
 }
 
-function loadContact(url, Xelement) {
+function load(url, Xelement) {
     if (window.XMLHttpRequest) {
         xmlhttp = new XMLHttpRequest()
     }
