@@ -504,13 +504,16 @@ footer {
     .proJ-head {
         justify-content: center;
     }
+    .proJ-info-container {
+        justify-content: space-around;
+        width: 100%;
+    }
     .proJ-info-container h4 {
         display: none;
     }
     .proJ-info-container p {
         width: 50%;
-    }
-    
+    }    
     .proJ-info-container-main {
         width: 50%;
     }
