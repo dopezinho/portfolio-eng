@@ -505,9 +505,9 @@ footer {
         justify-content: center;
     }
     .proJ-info-container {
+        justify-content: space-between;
     }    
     .proJ-info-container-main {
-        width: 70%;
     }
     .proJ-info-container h4 {
         display: none;
