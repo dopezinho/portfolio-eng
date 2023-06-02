@@ -307,8 +307,14 @@ footer {
     height: 7vh;
 }
 
-.footer-left-icon img {
-    height: 2vh;
+#heartzin {
+    cursor: pointer;
+    height: 3vh;
+}
+
+.heartzin {
+    stroke: #fff;
+    stroke-width: 10px;
 }
 
 .footer-center-bfp, .footer-center-tbar {

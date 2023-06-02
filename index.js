@@ -24,3 +24,15 @@ function load(url, Xelement) {
     xmlhttp.open("GET", url)
     xmlhttp.send()
 }
+
+/*  FILL HEART  */
+
+function fillHeart() {
+    const heart = document.querySelector(".heartzin");
+  
+    if (heart.style.fill === "none") {
+      heart.style.fill = "#fff";
+    } else {
+      heart.style.fill = "none";
+    }
+  }
