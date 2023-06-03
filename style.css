@@ -335,11 +335,12 @@ footer {
 .footer-right {
     align-items: center;
     display: flex;
+    flex-direction: column;
     padding-right: 2vh;
 }
 
 .footer-right img {
-    height: 4vh;
+    height: 6vh;
 }
 
 .footer-mobile {
