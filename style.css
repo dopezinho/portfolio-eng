@@ -4,7 +4,7 @@
     --bg-color: #23232388;
     --bg-hover-color: #232323;
     --black: #000;
-    --white: #fff;
+    --white: var(--white);
   }
 
 * {
@@ -16,13 +16,13 @@
 
 header {
     background-color: var(--black);
-    color: #fff;
+    color: var(--white);
     height: 1vh;
 }
 
 main {
     background-color: var(--black);
-    color: #fff;
+    color: var(--white);
     display: flex;
     justify-content: center;
 }
@@ -56,20 +56,20 @@ h5 {
 }
 
 li {
-    color: #fff;
+    color: var(--white);
     font-size: 1rem;
     font-weight: 600;
     list-style: none;
 }
 
 p {
-    color: #fff;
+    color: var(--white);
     font-size: 1rem;
     font-weight: 100;
 }
 
 a {
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -299,7 +299,7 @@ svg {
 footer {
     align-items: center;
     background-color: var(--black);
-    color: #fff;
+    color: var(--white);
     display: flex;
     height: 16vh;
     justify-content: space-between;
@@ -321,7 +321,7 @@ footer {
 }
 
 .heartzin {
-    stroke: #fff;
+    stroke: var(--white);
     stroke-width: 10px;
 }
 
@@ -578,24 +578,24 @@ footer {
 
 /*  WEBKIT  */
 
-/* width */
+    /* width */
 ::-webkit-scrollbar {
     width: 1vh;
-  }
+}
   
-  /* Track */
-  ::-webkit-scrollbar-track {
+    /* Track */
+::-webkit-scrollbar-track {
     background: var(--bg-hover-color);
-  }
+}
   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+    /* Handle */
+::-webkit-scrollbar-thumb {
     background: #ffffff83;
     border-radius: 10px;
-  }
+}
   
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #fff;
-  }
+    /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--white);
+}
 
