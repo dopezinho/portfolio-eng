@@ -509,7 +509,7 @@ footer {
     }
     .content-info {
         border-radius: 0px;
-        height: 77vh;
+        height: 77svh;
         padding-bottom: 9vh;
     }
     .content-head-up-right {
@@ -522,7 +522,7 @@ footer {
     footer {
         background-color: #000000e5;
         bottom: 0;
-        height: 8vh;
+        height: 8svh;
         overflow: hidden;
         position: fixed;
         width: 100%;
@@ -551,14 +551,14 @@ footer {
         margin-bottom: 0.5vh;
     }
     .contact {
-        height: 100vh;
+        height: 100svh;
         padding-bottom: 8vh;
     }
     .contact-head {
         justify-content: center;
     }
     .proJ {
-        height: 100vh;
+        height: 100svh;
         padding-bottom: 8vh;
     }
     .proJ-head {
