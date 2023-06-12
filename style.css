@@ -520,13 +520,13 @@ footer {
         display: none;
     }
     footer {
-        background-color: 000000e5;
+        background-color: #000000e5;
         bottom: 0;
         height: 8vh;
         overflow: hidden;
         position: fixed;
         width: 100%;
-      }
+    }
     .footer-left, .footer-center, .footer-right {
         display: none;
     }
