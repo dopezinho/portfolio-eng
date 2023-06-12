@@ -362,7 +362,7 @@ footer {
     background-color: var(--bg-color);
     border-radius: 10px;
     height: 83vh;
-    overflow-x: scroll;
+    overflow-y: scroll;
 }
 
 .contact-head {
