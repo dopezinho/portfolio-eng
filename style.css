@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap');
 
+:root {
+    --bg-color: #23232388;
+    --bg-hover-color: #232323;
+    --black: #000;
+    --white: #fff;
+  }
+
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -8,13 +15,13 @@
 }
 
 header {
-    background-color: #000;
+    background-color: var(--black);
     color: #fff;
     height: 1vh;
 }
 
 main {
-    background-color: #000;
+    background-color: var(--black);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -80,7 +87,7 @@ svg {
 /*  LEFT  */
 
 .nav-menu {
-    background-color: #23232388;
+    background-color: var(--bg-color);
     border-radius: 10px;
     cursor: pointer;
     margin: 0 1vh;
@@ -104,7 +111,7 @@ svg {
 }
 
 .nav-menu-home:hover, .nav-menu-contact:hover {
-    background-color: #232323;
+    background-color: var(--bg-hover-color);
     transition: 0.2s ease;
 }
 
@@ -113,7 +120,7 @@ svg {
 }
 
 .projects {
-    background-color: #23232388;
+    background-color: var(--bg-color);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -139,7 +146,7 @@ svg {
 }
 
 .projects-head:hover {
-    background-color: #232323;
+    background-color: var(--bg-hover-color);
     transition: 0.2s ease;
 }
 
@@ -161,7 +168,7 @@ svg {
 }
 
 .projects-content-container:hover {
-    background-color: #232323;
+    background-color: var(--bg-hover-color);
     transition: 0.2s ease;
 }
 
@@ -212,7 +219,7 @@ svg {
 
 .content-info {
     align-items: center;
-    background-color: #23232388;
+    background-color: var(--bg-color);
     border-radius: 10px 10px 10px 10px;
     display: flex;
     flex-direction: column;
@@ -243,7 +250,7 @@ svg {
 /*  RIGHT  */
 
 .inspirations {
-    background-color: #23232388;
+    background-color: var(--bg-color);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -283,7 +290,7 @@ svg {
 }
 
 .inspirations-content-container:hover {
-    background-color: #232323;
+    background-color: var(--bg-hover-color);
     transition: 0.2s ease;
 }
 
@@ -291,7 +298,7 @@ svg {
 
 footer {
     align-items: center;
-    background-color: #000;
+    background-color: var(--black);
     color: #fff;
     display: flex;
     height: 16vh;
@@ -352,10 +359,9 @@ footer {
   /* Contact */
 
 .contact {
-    background-color: #23232388;
+    background-color: var(--bg-color);
     border-radius: 10px;
     height: 83vh;
-    overflow-x: scroll;
 }
 
 .contact-head {
@@ -371,7 +377,7 @@ footer {
     justify-content: center;
 }
 .contact-info-container:hover {
-    background-color: #232323;
+    background-color: var(--bg-hover-color);
     border-radius: 10px;
     transition: 0.2s ease;
 }
@@ -395,7 +401,7 @@ footer {
 
 .contact-info-container-image {
     align-items: center;
-    background-color: #000;
+    background-color: var(--black);
     border-radius: 10px 0 0 10px;
     display: flex;
     height: 70px;
@@ -406,7 +412,7 @@ footer {
 
 .contact-info-container-text {
     align-items: center;
-    background-color: #232323;
+    background-color: var(--bg-hover-color);
     border-radius: 0 10px 10px 0;
     display: flex;
     height: 70px;
@@ -414,14 +420,14 @@ footer {
     padding-left: 40px;
 }
 .contact-info-container:hover {
-    background-color: #232323;
+    background-color: var(--bg-hover-color);
     transition: 0.2s ease;
 }
 
   /* Projects */
 
 .proJ {
-    background-color: #23232388;
+    background-color: var(--bg-color);
     border-radius: 10px;
     height: 83vh;
     overflow-y: scroll;
@@ -453,7 +459,7 @@ footer {
 }
 
 .proJ-info-container:hover {
-    background-color: #232323;
+    background-color: var(--bg-hover-color);
     transition: 0.2s ease;
 }
 
@@ -513,7 +519,7 @@ footer {
         display: none;
     }
     footer {
-        background-color: #000000e5;
+        background-color: var(--black)000e5;
         bottom: 0;
         height: 8vh;
         overflow: hidden;
@@ -578,7 +584,7 @@ footer {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #23232300;
+    background: var(--bg-hover-color);
   }
   
   /* Handle */
