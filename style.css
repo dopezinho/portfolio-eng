@@ -509,6 +509,12 @@ footer {
     header {
         height: 0;
     }
+    svg {
+        height: 6svh;
+    }
+    img {
+        height: 4svh;
+    }
     .navig {
         display: none;
     }
