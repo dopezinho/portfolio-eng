@@ -106,7 +106,9 @@ svg {
     border-radius: 10px;
     display: flex;
     height: 7svh;
-    padding-right: 15svh;
+    padding: 4svh 0;
+    padding-right: 14svh;
+    padding-left: 0.5svh;
     transition: 0.5s ease;
 }
 
@@ -124,7 +126,7 @@ svg {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    height: 66svh;
+    height: 64svh;
     margin: 0 1svh;
     padding: 0 1svh;
     transition: 0.5s ease;
@@ -141,7 +143,7 @@ svg {
     cursor: pointer;
     display: flex;
     margin-top: 1svh;
-    padding: 2svh 0;
+    padding: 1.5svh 0;
     transition: 0.5s ease;
 }
 
@@ -184,7 +186,7 @@ svg {
     border-radius: 10px 10px 0 0;
     display: flex;
     flex-direction: column;
-    height: 25svh;
+    height: 30svh;
     justify-content: space-around;
     padding-left: 5svh;
     transition: ease 2s;
@@ -223,7 +225,7 @@ svg {
     display: flex;
     flex-direction: column;
     gap: 3svh;
-    height: 58svh;
+    height: 53svh;
     overflow-y: scroll;
     padding: 3svh 2svh 5svh 5svh;
     transition: 0.5s ease;
