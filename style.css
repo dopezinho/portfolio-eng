@@ -76,12 +76,12 @@ a {
 /*  IMAGES  */
 
 img {
-    height: 4svh;
+    height: 6svh;
     margin: 0 1.5svh;
 }
 
 svg {
-    height: 6svh;
+    height: 10svh;
 }
 
 /*  LEFT  */
@@ -116,7 +116,7 @@ svg {
 }
 
 .nav-menu-home-icon {
-    height: 3svh;
+    height: 5svh;
 }
 
 .projects {
@@ -173,7 +173,7 @@ svg {
 }
 
 .projects-content img {
-    height: 6svh;
+    height: 8svh;
 }
 
 /*  CENTER  */
@@ -275,7 +275,7 @@ svg {
 
 .inspirations-content-img {
     border-radius: 50px;
-    height: 6svh;
+    height: 8svh;
 }
 
 .inspirations-content-container {
@@ -346,7 +346,7 @@ footer {
 }
 
 .footer-right img {
-    height: 6svh;
+    height: 8svh;
 }
 
 .footer-mobile {
