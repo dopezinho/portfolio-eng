@@ -319,6 +319,7 @@ footer {
 #heartzin {
     cursor: pointer;
     height: 3svh;
+    padding-left: 10px;
 }
 
 .heartzin {
@@ -419,7 +420,7 @@ footer {
     display: flex;
     height: 70px;
     min-width: 260px;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 .contact-info-container:hover {
     background-color: var(--bg-hover-color);
