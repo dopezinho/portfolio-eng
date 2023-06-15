@@ -619,22 +619,46 @@ footer {
 
     /* width */
 ::-webkit-scrollbar {
-    width: 1svh;
+    width: 1.5svh;
 }
   
     /* Track */
 ::-webkit-scrollbar-track {
+    background: transparent;
+}
+#projeto:hover .projects-content::-webkit-scrollbar-track {
+    background: var(--bg-hover-color);
+}
+#center-content:hover .content-info::-webkit-scrollbar-track {
+    background: var(--bg-hover-color);
+}
+#center-content:hover .contact::-webkit-scrollbar-track {
+    background: var(--bg-hover-color);
+}
+#center-content:hover .proJ::-webkit-scrollbar-track {
+    background: var(--bg-hover-color);
+}
+.inspirations:hover .inspirations-content::-webkit-scrollbar-track {
     background: var(--bg-hover-color);
 }
   
     /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #ffffff83;
-    border-radius: 10px;
+    background: transparent;
+    border-radius: 2px;
 }
-  
-    /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: var(--white);
+#projeto:hover .projects-content::-webkit-scrollbar-thumb {
+    background: #fff;
 }
-
+#center-content:hover .content-info::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+#center-content:hover .contact::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+#center-content:hover .proJ::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+.inspirations:hover .inspirations-content::-webkit-scrollbar-thumb {
+    background: #fff;
+}
