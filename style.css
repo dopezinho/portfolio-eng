@@ -3,6 +3,7 @@
 :root {
     --bg-color: #23232388;
     --bg-hover-color: #232323;
+    --scroll-bar: #ffffff53;
     --black: #000;
     --white: #fff;
   }
@@ -98,7 +99,7 @@ svg {
 
 .nav-menu:hover {    
     filter: contrast(80%);
-    transition: 0.5 ease;
+    transition: 0.2 ease;
 }
 
 .nav-menu-home, .nav-menu-contact {
@@ -134,7 +135,7 @@ svg {
 
 .projects:hover {    
     filter: contrast(80%);
-    transition: 0.5 ease;
+    transition: 0.2 ease;
 }
 
 .projects-head {
@@ -233,7 +234,7 @@ svg {
 
 .content-info:hover {
     filter: contrast(80%);
-    transition: 0.5 ease;
+    transition: 0.2 ease;
 }
 
 .content-info-icons {
@@ -262,7 +263,7 @@ svg {
 
 .inspirations:hover {
     filter: contrast(80%);
-    transition: 0.5 ease;
+    transition: 0.2 ease;
 }
 
 .inspirations-head {
@@ -434,11 +435,11 @@ footer {
     border-radius: 10px;
     height: 83svh;
     overflow-y: scroll;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 .proJ:hover {    
     filter: contrast(80%);
-    transition: 0.2 ease;
+    transition: 0.2s ease;
 }
 
 .proJ-head {
@@ -458,6 +459,7 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 2svh 0;
+    transition: 0.5s ease;
     width: 100%;
 }
 
@@ -622,7 +624,7 @@ footer {
     width: 1.5svh;
 }
   
-    /* Track */
+    /* Track 
 ::-webkit-scrollbar-track {
     background: transparent;
 }
@@ -641,24 +643,25 @@ footer {
 .inspirations:hover .inspirations-content::-webkit-scrollbar-track {
     background: var(--bg-hover-color);
 }
+*/
   
     /* Handle */
 ::-webkit-scrollbar-thumb {
     background: transparent;
-    border-radius: 2px;
+    border-radius: 0px;
 }
 #projeto:hover .projects-content::-webkit-scrollbar-thumb {
-    background: #fff;
+    background: var(--scroll-bar);
 }
 #center-content:hover .content-info::-webkit-scrollbar-thumb {
-    background: #fff;
+    background: var(--scroll-bar);
 }
 #center-content:hover .contact::-webkit-scrollbar-thumb {
-    background: #fff;
+    background: var(--scroll-bar);
 }
 #center-content:hover .proJ::-webkit-scrollbar-thumb {
-    background: #fff;
+    background: var(--scroll-bar);
 }
 .inspirations:hover .inspirations-content::-webkit-scrollbar-thumb {
-    background: #fff;
+    background: var(--scroll-bar);
 }
