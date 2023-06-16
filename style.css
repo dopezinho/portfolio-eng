@@ -541,7 +541,7 @@ footer {
     footer {
         background: linear-gradient(180deg, #00000000 0%, #00000040 10%, #000000ad 25%, #000000bc 50%, #000000 75%, #000 100%);
         bottom: 0;
-        height: 14svh;
+        height: 10svh;
         overflow: hidden;
         position: fixed;
         width: 100%;
@@ -566,11 +566,11 @@ footer {
         justify-content: center;
     }
     .footer-mobile-container img {
-        height: 6svh;
+        height: 5svh;
         margin-bottom: 1.5svh;
     }
     .footer-mobile-icon-small {
-        height: 8svh;
+        height: 6svh;
     }
     .contact {
         height: 100svh;
