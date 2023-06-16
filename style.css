@@ -495,7 +495,7 @@ footer {
 
 /*  Media Queries  */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
     .inspirations {
         display: none;
     }
@@ -510,7 +510,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 740px) {
     header {
         height: 0;
     }
@@ -539,7 +539,7 @@ footer {
         display: none;
     }
     footer {
-        background-color: #000000e5;
+        background-color: #000000ad;
         bottom: 0;
         height: 8svh;
         overflow: hidden;
@@ -606,7 +606,6 @@ footer {
     }    
     h5 {
         font-size: 1rem;
-        font-weight: 100;
     }    
     li {
         font-size: 1rem;
@@ -616,36 +615,12 @@ footer {
     }
 }
 
+/*  Scrollbar  */
 
-/*  WEBKIT  */
-
-    /* width */
 ::-webkit-scrollbar {
     width: 1.5svh;
 }
-  
-    /* Track 
-::-webkit-scrollbar-track {
-    background: transparent;
-}
-#projeto:hover .projects-content::-webkit-scrollbar-track {
-    background: var(--bg-hover-color);
-}
-#center-content:hover .content-info::-webkit-scrollbar-track {
-    background: var(--bg-hover-color);
-}
-#center-content:hover .contact::-webkit-scrollbar-track {
-    background: var(--bg-hover-color);
-}
-#center-content:hover .proJ::-webkit-scrollbar-track {
-    background: var(--bg-hover-color);
-}
-.inspirations:hover .inspirations-content::-webkit-scrollbar-track {
-    background: var(--bg-hover-color);
-}
-*/
-  
-    /* Handle */
+
 ::-webkit-scrollbar-thumb {
     background: transparent;
     border-radius: 0px;
