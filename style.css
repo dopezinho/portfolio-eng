@@ -539,7 +539,7 @@ footer {
         display: none;
     }
     footer {
-        background: linear-gradient(180deg, #00000000 0%, #00000040 10%, #000000ad 25%, #000000bc 50%, #000000 75%, #000 100%);
+        background: linear-gradient(180deg, #00000000 0%, #00000040 20%, #000000ad 25%, #000000bc 50%, #000000 75%, #000 100%);
         bottom: 0;
         height: 10svh;
         overflow: hidden;
