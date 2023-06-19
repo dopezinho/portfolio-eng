@@ -189,6 +189,7 @@ svg {
     flex-direction: column;
     height: 30svh;
     justify-content: space-around;
+    margin-right: 1svh;
     padding-left: 5svh;
     transition: ease 2s;
 }
@@ -228,6 +229,7 @@ svg {
     gap: 3svh;
     height: 53svh;
     overflow-y: scroll;
+    margin-right: 1svh;
     padding: 3svh 2svh 5svh 5svh;
     transition: 0.5s ease;
 }
@@ -257,7 +259,6 @@ svg {
     display: flex;
     flex-direction: column;
     height: 83svh;
-    margin: 0 1svh;
     transition: 0.5s ease;
 }
 
@@ -365,6 +366,7 @@ footer {
     background-color: var(--bg-color);
     border-radius: 10px;
     height: 83svh;
+    margin-right: 1svh;
     overflow-y: scroll;
 }
 
@@ -434,6 +436,7 @@ footer {
     background-color: var(--bg-color);
     border-radius: 10px;
     height: 83svh;
+    margin-right: 1svh;
     overflow-y: scroll;
     transition: 0.5s ease;
 }
