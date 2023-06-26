@@ -244,7 +244,7 @@ svg {
     height: 30svh;
     justify-content: space-around;
     margin-right: 1svh;
-    padding-left: 5svh;
+    padding-left: 50px;
     transition: ease 2s;
 }
 
@@ -266,26 +266,21 @@ svg {
     width: 20%;
 }
 
-.content-head-up-right {
-    padding-left: 20svh;
-}
-
 .content-head-up-right svg {
     cursor: pointer;
     width: 60px;
 }
 
 .content-info {
-    align-items: center;
     background-color: var(--bg-color);
     border-radius: 10px 10px 10px 10px;
     display: flex;
     flex-direction: column;
-    gap: 3svh;
+    gap: 40px;
     height: 53svh;
-    overflow-y: scroll;
     margin-right: 1svh;
-    padding: 3svh 2svh 5svh 5svh;
+    overflow-y: scroll;
+    padding: 20px 50px;
     transition: 0.5s ease;
 }
 
