@@ -115,23 +115,30 @@ svg {
     transition: 0.5s ease;
 }
 
+.nav-menu-home h3 {
+    color: #fff;
+}
+
 .nav-menu-home:hover, .nav-menu-contact:hover {
     background-color: var(--bg-hover-color);
     transition: 0.2s ease;
 }
 
 .nav-menu-home:hover .svg-home {
-    stroke: #fff;
+    stroke: #fff !important;
 }
 .nav-menu-home:hover .nav-menu-home-h3 {
-    color: #fff;
+    color: #fff !important;
 }
 
 .nav-menu-contact:hover .svg-contact {
-    stroke: #fff;
+    stroke: #fff !important;
+}
+.nav-menu-contact:hover .svg-contact1 {
+    stroke: #fff !important;
 }
 .nav-menu-contact:hover .nav-menu-contact-h3 {
-    color: #fff;
+    color: #fff !important;
 }
 
 .projects {
@@ -167,10 +174,10 @@ svg {
 }
 
 .projects-head:hover .svg-projects {
-    stroke: #fff;
+    stroke: #fff !important;
 }
 .projects-head:hover .projects-head-h3 {
-    color: #fff;
+    color: #fff !important;
 }
 
 .projects-content {
@@ -200,13 +207,18 @@ svg {
 }
 
 .svg-home {
-    fill: none;
-    stroke: #858080;  
+    fill: #fff;
+    stroke: #fff;  
     stroke-miterlimit: 10;
     stroke-width: 5px; 
 }
 
 .svg-contact {
+    fill: none;
+    stroke: #858080;
+    stroke-width: 5px;
+}
+.svg-contact1 {
     fill: none;
     stroke: #858080;
     stroke-width: 5px;
