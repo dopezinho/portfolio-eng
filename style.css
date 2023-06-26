@@ -15,12 +15,6 @@
     padding: 0;
 }
 
-header {
-    background-color: var(--black);
-    color: var(--white);
-    height: 1svh;
-}
-
 main {
     background-color: var(--black);
     color: var(--white);
@@ -93,7 +87,7 @@ svg {
     background-color: var(--bg-color);
     border-radius: 10px;
     cursor: pointer;
-    margin: 0 1svh 1svh 1svh;
+    margin: 1svh;
     padding: 1svh;
     transition: 0.5s ease;
 }
@@ -144,8 +138,8 @@ svg {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    height: 64svh;
-    margin: 0 1svh;
+    height: 63svh;
+    margin: 0 1lvh;
     transition: 0.5s ease;
 }
 
@@ -159,7 +153,6 @@ svg {
     border-radius: 10px;
     cursor: pointer;
     display: flex;
-    margin-top: 1svh;
     margin: 5px;
     padding: 15px 0;
     transition: 0.5s ease;
@@ -244,6 +237,7 @@ svg {
     height: 30svh;
     justify-content: space-around;
     margin-right: 1svh;
+    margin-top: 1svh;
     padding-left: 50px;
     transition: ease 2s;
 }
@@ -273,11 +267,11 @@ svg {
 
 .content-info {
     background-color: var(--bg-color);
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 40px;
-    height: 53svh;
+    height: 52svh;
     margin-right: 1svh;
     overflow-y: scroll;
     padding: 20px 50px;
@@ -308,7 +302,9 @@ svg {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    height: 83svh;
+    height: 82svh;
+    margin-right: 1svh;
+    margin-top: 1svh;
     transition: 0.5s ease;
 }
 .inspirations h3 {
@@ -323,7 +319,7 @@ svg {
 .inspirations-head {
     align-items: center;
     display: flex;
-    padding: 4svh 0;
+    padding: 30px 0;
 }
 
 .inspirations-content {
@@ -340,7 +336,6 @@ svg {
     border-radius: 10px;
     cursor: pointer;
     display: flex;
-    margin-right: 1svh;
     padding: 2svh 0;
     transition: 0.5s ease;
 }
@@ -366,7 +361,7 @@ footer {
     background-color: var(--black);
     color: var(--white);
     display: flex;
-    height: 16svh;
+    height: 17svh;
     justify-content: space-between;
 }
 
