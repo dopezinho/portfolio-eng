@@ -426,6 +426,10 @@ footer {
     display: none;
 }
 
+#svg-email {
+    width: 50px;
+}
+
 .svg-email {
     fill: #000;
     stroke: #fff;
