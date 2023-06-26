@@ -427,6 +427,22 @@ footer {
     display: none;
 }
 
+.svg-home-mobile {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 5px;
+}
+.svg-contact-mobile {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 5px;
+}
+.svg-projects-mobile {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 5px;
+}
+
 #svg-email {
     width: 50px;
 }
@@ -597,7 +613,12 @@ footer {
 
 /*  Media Queries  */
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1450px) {
+    .proJ-info-container h4 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1300px) {
     .inspirations {
         display: none;
     }
@@ -612,7 +633,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 900px) {
     header {
         height: 0;
     }
@@ -690,9 +711,6 @@ footer {
     }
     .proJ-info-container {
         justify-content: space-between;
-    }
-    .proJ-info-container h4 {
-        display: none;
     }
     .proJ-info-container p {
         padding: 0;
