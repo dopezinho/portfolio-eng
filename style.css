@@ -6,6 +6,7 @@
     --scroll-bar: #ffffff77;
     --black: #000;
     --white: #fff;
+    --border-radius: 5px;
   }
 
 * {
@@ -85,7 +86,7 @@ svg {
 
 .nav-menu {
     background-color: var(--bg-color);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     cursor: pointer;
     margin: 1svh;
     padding: 1svh;
@@ -99,7 +100,7 @@ svg {
 
 .nav-menu-home, .nav-menu-contact {
     align-items: center;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     display: flex;
     height: 8svh;
     padding-right: 14svh;
@@ -135,7 +136,7 @@ svg {
 
 .projects {
     background-color: var(--bg-color);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     display: flex;
     flex-direction: column;
     height: 63svh;
@@ -150,7 +151,7 @@ svg {
 
 .projects-head {
     align-items: center;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     cursor: pointer;
     display: flex;
     margin: 5px;
@@ -179,7 +180,7 @@ svg {
 
 .projects-content-container {
     align-items: center;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     cursor: pointer;
     display: flex;
     margin: 0 5px;
@@ -231,7 +232,7 @@ svg {
 .content-head {
     background-image: url(./assets/cr5.png);
     background-position: left;
-    border-radius: 10px 10px 0 0;
+    border-radius: var(--border-radius);
     display: flex;
     flex-direction: column;
     height: 30svh;
@@ -243,6 +244,7 @@ svg {
 }
 
 .content-head:hover {
+    border-radius: 10px 10px 0 0;
     filter: contrast(85%);
     transition: ease 0.2s;
 }
@@ -267,7 +269,7 @@ svg {
 
 .content-info {
     background-color: var(--bg-color);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -299,7 +301,7 @@ svg {
 
 .inspirations {
     background-color: var(--bg-color);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     display: flex;
     flex-direction: column;
     height: 82svh;
@@ -333,7 +335,7 @@ svg {
 
 .inspirations-content-container {
     align-items: center;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     cursor: pointer;
     display: flex;
     padding: 2svh 0;
@@ -371,7 +373,7 @@ footer {
 }
 
 .footer-left-img img {
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     height: 80px;
 }
 
@@ -442,9 +444,10 @@ footer {
 
 .contact {
     background-color: var(--bg-color);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     height: 83svh;
     margin-right: 1svh;
+    margin-top: 1svh;
     overflow-y: scroll;
 }
 
@@ -466,7 +469,7 @@ footer {
 }
 .contact-info-container:hover {
     background-color: var(--bg-hover-color);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     transition: 0.2s ease;
 }
 
@@ -516,9 +519,10 @@ footer {
 
 .proJ {
     background-color: var(--bg-color);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     height: 83svh;
     margin-right: 1svh;
+    margin-top: 1svh;
     overflow-y: scroll;
     transition: 0.5s ease;
 }
