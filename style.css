@@ -203,7 +203,8 @@ svg {
 }
 
 .projects-content img {
-    height: 8svh;
+    height: 30px;
+    padding-left: 20px;
 }
 
 .svg-home {
@@ -304,8 +305,8 @@ svg {
 }
 
 .content-info-icons img {
-    height: 10svh;
-    padding: 2svh;
+    height: 80px;
+    padding: 20px;
 }
 
 /*  RIGHT  */
@@ -339,7 +340,7 @@ svg {
 
 .inspirations-content-img {
     border-radius: 50px;
-    height: 8svh;
+    height: 50px;
 }
 
 .inspirations-content-container {
@@ -347,8 +348,8 @@ svg {
     border-radius: 10px;
     cursor: pointer;
     display: flex;
-    margin: 0 1svh;
-    padding: 2svh 1svh;
+    margin-right: 1svh;
+    padding: 2svh 0;
     transition: 0.5s ease;
 }
 
@@ -384,7 +385,7 @@ footer {
 
 .footer-left-img img {
     border-radius: 10px;
-    height: 10svh;
+    height: 80px;
 }
 
 #heartzin {
@@ -408,10 +409,6 @@ footer {
     height: 3.5svh;
 }
 
-.footer-center-tbar-img {
-    width: 50svh;
-}
-
 .footer-right {
     align-items: center;
     display: flex;
@@ -420,7 +417,7 @@ footer {
 }
 
 .footer-right img {
-    height: 8svh;
+    height: 60px;
 }
 
 .footer-mobile {
@@ -599,7 +596,7 @@ footer {
 }
 
 .proJ-info-container-main img {
-    height: 10svh;
+    height: 60px;
 }
 
 .svg-projects-open {
@@ -637,9 +634,6 @@ footer {
     }
     svg {
         height: 6svh;
-    }
-    img {
-        height: 4svh;
     }
     .navig {
         display: none;
@@ -685,10 +679,6 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-    .footer-mobile-container img {
-        height: 4svh;
-        margin-bottom: 0.5svh;
     }
     .footer-mobile-icon-small {
         height: 5svh;
