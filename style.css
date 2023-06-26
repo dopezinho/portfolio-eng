@@ -93,8 +93,7 @@ svg {
     background-color: var(--bg-color);
     border-radius: 10px;
     cursor: pointer;
-    margin: 0 1svh;
-    margin-bottom: 1svh;
+    margin: 0 1svh 1svh 1svh;
     padding: 1svh;
     transition: 0.5s ease;
 }
@@ -108,8 +107,7 @@ svg {
     align-items: center;
     border-radius: 10px;
     display: flex;
-    height: 7svh;
-    padding: 4svh 0;
+    height: 8svh;
     padding-right: 14svh;
     padding-left: 0.5svh;
     transition: 0.5s ease;
@@ -148,7 +146,6 @@ svg {
     flex-direction: column;
     height: 64svh;
     margin: 0 1svh;
-    padding: 0 1svh;
     transition: 0.5s ease;
 }
 
@@ -163,8 +160,8 @@ svg {
     cursor: pointer;
     display: flex;
     margin-top: 1svh;
-    padding: 2svh 0;
-    padding-left: 0.5svh;
+    margin: 5px;
+    padding: 15px 0;
     transition: 0.5s ease;
 }
 
@@ -192,8 +189,8 @@ svg {
     border-radius: 10px;
     cursor: pointer;
     display: flex;
-    margin-right: 1svh;
-    padding: 2svh 0;
+    margin: 0 5px;
+    padding: 15px 0;
     transition: 0.5s ease;
 }
 
