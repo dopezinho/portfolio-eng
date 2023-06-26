@@ -42,7 +42,8 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2rem;
+    color: #858080;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -77,12 +78,13 @@ a {
 /*  IMAGES  */
 
 img {
-    height: 6svh;
-    margin: 0 1.5svh;
+    height: 30px;
+    margin: 0 20px;
 }
 
 svg {
-    height: 10svh;
+    width: 30px;
+    margin: 0 20px;
 }
 
 /*  LEFT  */
@@ -118,8 +120,18 @@ svg {
     transition: 0.2s ease;
 }
 
-.nav-menu-home-icon {
-    height: 5svh;
+.nav-menu-home:hover .svg-home {
+    stroke: #fff;
+}
+.nav-menu-home:hover .nav-menu-home-h3 {
+    color: #fff;
+}
+
+.nav-menu-contact:hover .svg-contact {
+    stroke: #fff;
+}
+.nav-menu-contact:hover .nav-menu-contact-h3 {
+    color: #fff;
 }
 
 .projects {
@@ -144,13 +156,21 @@ svg {
     cursor: pointer;
     display: flex;
     margin-top: 1svh;
-    padding: 1.5svh 0;
+    padding: 2svh 0;
+    padding-left: 0.5svh;
     transition: 0.5s ease;
 }
 
 .projects-head:hover {
     background-color: var(--bg-hover-color);
     transition: 0.2s ease;
+}
+
+.projects-head:hover .svg-projects {
+    stroke: #fff;
+}
+.projects-head:hover .projects-head-h3 {
+    color: #fff;
 }
 
 .projects-content {
@@ -177,6 +197,30 @@ svg {
 
 .projects-content img {
     height: 8svh;
+}
+
+.svg-home {
+    fill: none;
+    stroke: #858080;  
+    stroke-miterlimit: 10;
+    stroke-width: 5px; 
+}
+
+.svg-contact {
+    fill: none;
+    stroke: #858080;
+    stroke-width: 5px;
+}
+.svg-contact-pg {
+    fill: #fff;
+    stroke: #fff;
+    stroke-width: 5px;
+}
+
+.svg-projects {
+    fill: none;
+    stroke: #858080;
+    stroke-width: 5px;
 }
 
 /*  CENTER  */
@@ -261,6 +305,9 @@ svg {
     height: 83svh;
     transition: 0.5s ease;
 }
+.inspirations h3 {
+    color: #fff;
+}
 
 .inspirations:hover {
     filter: contrast(80%);
@@ -295,6 +342,12 @@ svg {
 .inspirations-content-container:hover {
     background-color: var(--bg-hover-color);
     transition: 0.2s ease;
+}
+
+.svg-moon {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 5px;
 }
 
 /*  FOOTER  */
@@ -358,6 +411,11 @@ footer {
     display: none;
 }
 
+.svg-email {
+    fill: #000;
+    stroke: #fff;
+}
+
 /*  JS CLASSES  */
 
   /* Contact */
@@ -374,6 +432,10 @@ footer {
     align-items: center;
     display: flex;
     padding: 5svh 2svh;
+}
+
+.contact-head h3 {
+    color: #fff;
 }
 
 .contact-info {
@@ -451,6 +513,14 @@ footer {
     padding: 5svh 2svh;
 }
 
+.proJ-head h3 {
+    color: #fff;
+}
+
+.proJ-head svg {
+    width: 40px;
+}
+
 .proJ-info {
     display: flex;
     flex-wrap: wrap;
@@ -494,6 +564,15 @@ footer {
 
 .proJ-info-container-main img {
     height: 10svh;
+}
+
+.svg-projects-open {
+    fill: #000;
+    stroke: #fff;
+}
+.svg-projects-open1 {
+    fill: #fff;
+    stroke: #fff;
 }
 
 /*  Media Queries  */
