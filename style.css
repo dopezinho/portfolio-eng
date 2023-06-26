@@ -330,7 +330,7 @@ svg {
 .inspirations-head {
     align-items: center;
     display: flex;
-    padding: 4svh 0 4svh 2svh;
+    padding: 4svh 0;
 }
 
 .inspirations-content {
@@ -594,7 +594,7 @@ footer {
 .proJ-info-container-main {
     align-items: center;
     display: flex;
-    padding-left: 2svh;
+    padding-left: 5svh;
     width: 30%;
 }
 
@@ -613,11 +613,6 @@ footer {
 
 /*  Media Queries  */
 
-@media only screen and (max-width: 1450px) {
-    .proJ-info-container h4 {
-        display: none;
-    }
-}
 @media only screen and (max-width: 1300px) {
     .inspirations {
         display: none;
@@ -630,6 +625,9 @@ footer {
     }
     h3 {
         font-size: 1rem;
+    }
+    .proJ-info-container h4 {
+        display: none;
     }
 }
 
