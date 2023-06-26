@@ -272,8 +272,9 @@ svg {
     padding-left: 20svh;
 }
 
-.content-head-up-right img, .content-head-up-right svg {
+.content-head-up-right svg {
     cursor: pointer;
+    width: 60px;
 }
 
 .content-info {
