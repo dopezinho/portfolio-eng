@@ -10,6 +10,21 @@ const svgProjectsOpen = document.querySelector(".svg-projects-open")
 const svgProjectsOpenAll = document.getElementById("svg-projects-open")
 const svgProjectsH3 = document.querySelector(".projects-head-h3")
 
+
+function load(url, Xelement) {
+
+    if (window.XMLHttpRequest) {
+        xmlhttp = new XMLHttpRequest()
+    }
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status ==200) {
+            Xelement.innerHTML = xmlhttp.responseText
+        }
+    }
+    xmlhttp.open("GET", url)
+    xmlhttp.send()
+}
+
 /*  LOAD CONTACT  */
 
 function clickbtnContact() {
@@ -46,20 +61,6 @@ function clickbtnProjects() {
     svgHome.style.fill = "none"
     svgHome.style.stroke = "#858080"
     homeH3.style.color = "#858080"
-}
-
-function load(url, Xelement) {
-
-    if (window.XMLHttpRequest) {
-        xmlhttp = new XMLHttpRequest()
-    }
-    xmlhttp.onreadystatechange = function() {
-        if (xmlhttp.readyState == 4 && xmlhttp.status ==200) {
-            Xelement.innerHTML = xmlhttp.responseText
-        }
-    }
-    xmlhttp.open("GET", url)
-    xmlhttp.send()
 }
 
 /*  FILL HEART  */
