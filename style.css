@@ -440,24 +440,37 @@ footer {
     justify-content: center;
 }
 
+.footer-mobile-home-h3 {
+    color: #fff;
+}
+
 .svg-home-mobile {
     fill: #fff;
     stroke: #fff;
+    stroke-width: 5px;
 }
 
 .svg-contact-mobile {
     fill: none;
-    stroke: #fff;
+    stroke: #858080;
+    stroke-width: 5px;
 }
 
 .svg-contact1-mobile {
     fill: none;
-    stroke: #fff;
+    stroke: #858080;
+    stroke-width: 5px;
 }
 
 .svg-projects-mobile {
     fill: none;
-    stroke: #fff;
+    stroke: #858080;
+    stroke-width: 5px;
+}
+.svg-projects-mobile-open {
+    fill: none;
+    stroke: #858080;
+    stroke-width: 5px;
 }
 
 #svg-home-mobile {
@@ -469,6 +482,10 @@ footer {
 }
 
 #svg-projects-mobile {
+    height: 20px;
+}
+
+#svg-projects-mobile-open {
     height: 20px;
 }
 

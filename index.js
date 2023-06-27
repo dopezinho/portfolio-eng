@@ -3,12 +3,21 @@ const svgHome = document.querySelector(".svg-home")
 const homeH3 = document.querySelector(".nav-menu-home-h3")
 const svgContact = document.querySelector(".svg-contact")
 const svgContact1 = document.querySelector(".svg-contact1")
-const svgContactH3 = document.querySelector(".nav-menu-contact-h3")
+const contactH3 = document.querySelector(".nav-menu-contact-h3")
 const svgProjects = document.querySelector(".svg-projects")
 const svgProjectsAll = document.getElementById("svg-projects")
 const svgProjectsOpen = document.querySelector(".svg-projects-open")
 const svgProjectsOpenAll = document.getElementById("svg-projects-open")
-const svgProjectsH3 = document.querySelector(".projects-head-h3")
+const projectsH3 = document.querySelector(".projects-head-h3")
+const svgHomeMobile = document.querySelector(".svg-home-mobile")
+const homeMobileH3 = document.querySelector(".footer-mobile-home-h3")
+const svgContactMobile = document.querySelector(".svg-contact-mobile")
+const svgContactMobile1 = document.querySelector(".svg-contact1-mobile")
+const contactMobileH3 = document.querySelector(".footer-mobile-contact-h3")
+const svgProjectsMobile = document.querySelector(".svg-projects-mobile")
+const projectsMobileH3 = document.querySelector(".footer-mobile-projects-h3")
+const svgProjectsMobileAll = document.getElementById("svg-projects-mobile")
+const svgProjectsMobileOpenAll = document.getElementById("svg-projects-mobile-open")
 
 
 function load(url, Xelement) {
@@ -34,15 +43,26 @@ function clickbtnContact() {
     svgContact.style.stroke = "#fff"
     svgContact1.style.fill = "#fff"
     svgContact1.style.stroke = "#fff"
-    svgContactH3.style.color = "#fff"
+    contactH3.style.color = "#fff"
     svgHome.style.fill = "none"
     svgHome.style.stroke = "#858080"
     homeH3.style.color = "#858080"
     svgProjects.style.fill = "none"
     svgProjects.style.stroke = "#858080"
-    svgProjectsH3.style.color = "#858080"
+    projectsH3.style.color = "#858080"
     svgProjectsAll.style.display = "flex"
     svgProjectsOpenAll.style.display = "none"
+    svgHomeMobile.style.fill = "none"
+    svgHomeMobile.style.stroke = "#858080"
+    homeMobileH3.style.color = "#858080"
+    svgContactMobile.style.fill = "#fff"
+    svgContactMobile.style.stroke = "#fff"
+    svgContactMobile1.style.fill = "#fff"
+    svgContactMobile1.style.stroke = "#fff"
+    contactMobileH3.style.color = "#fff"
+    svgProjectsMobileAll.style.display = "flex"
+    svgProjectsMobileOpenAll.style.display = "none"
+    projectsMobileH3.style.color = "#858080"
 }
 
 /*  LOAD PROJECTS  */
@@ -52,15 +72,26 @@ function clickbtnProjects() {
     svgProjectsAll.style.display = "none"
     svgProjectsOpenAll.style.display = "flex"
     svgProjectsOpen.style.fill = "none"
-    svgProjectsH3.style.color = "#fff"
+    projectsH3.style.color = "#fff"
     svgContact.style.fill = "none"
     svgContact.style.stroke = "#858080"
     svgContact1.style.fill = "none"
     svgContact1.style.stroke = "#858080"
-    svgContactH3.style.color = "#858080"
+    contactH3.style.color = "#858080"
     svgHome.style.fill = "none"
     svgHome.style.stroke = "#858080"
     homeH3.style.color = "#858080"
+    svgHomeMobile.style.fill = "none"
+    svgHomeMobile.style.stroke = "#858080"
+    homeMobileH3.style.color = "#858080"
+    svgContactMobile.style.fill = "none"
+    svgContactMobile.style.stroke = "#858080"
+    svgContactMobile1.style.fill = "none"
+    svgContactMobile1.style.stroke = "#858080"
+    contactMobileH3.style.color = "#858080"
+    svgProjectsMobileAll.style.display = "none"
+    svgProjectsMobileOpenAll.style.display = "flex"
+    projectsMobileH3.style.color = "#fff"
 }
 
 /*  FILL HEART  */
