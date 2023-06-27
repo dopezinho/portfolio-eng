@@ -237,6 +237,16 @@ svg {
     margin: 0 20px;
 }
 
+#svg-projects {
+    height: 35px;
+    margin: 0 10px;
+}
+
+#svg-projects-open {
+    height: 35px;
+    margin: 0 10px;
+}
+
 #svg-contact-pg {
     margin: 0 20px;
     width: 50px;
@@ -247,20 +257,10 @@ svg {
     width: 50px;
 }
 
-#svg-projects {
-    height: 30px;
-    margin: 0 25px;
-}
-
 .svg-projects-open {
     fill: none;
     stroke: #fff;
     stroke-width: 5px;
-}
-
-#svg-projects-open {
-    height: 30px;
-    margin: 0 25px;
 }
 
 /*  CENTER  */
@@ -485,7 +485,7 @@ footer {
 .contact-head {
     align-items: center;
     display: flex;
-    padding: 50px 20px;
+    padding: 30px 20px;
 }
 
 .contact-head h3 {
@@ -565,7 +565,7 @@ footer {
 .proJ-head {
     align-items: center;
     display: flex;
-    padding: 50px 20px;
+    padding: 30px 20px;
 }
 
 .proJ-head h3 {
