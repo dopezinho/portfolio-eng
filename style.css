@@ -683,7 +683,7 @@ footer {
     .footer-mobile {
         display: flex;
         justify-content: space-between;
-        width: 80%;
+        width: 75%;
     }
     .contact {
         height: 100svh;
