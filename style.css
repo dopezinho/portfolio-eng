@@ -258,12 +258,16 @@ svg {
     display: flex;
 }
 
-.content-head-up-left {
-    width: 20%;
+.content-head-up-right {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 200px;
 }
 
 .content-head-up-right svg {
     cursor: pointer;
+    margin: 0;
     width: 60px;
 }
 
@@ -380,7 +384,7 @@ footer {
 
 #heartzin {
     cursor: pointer;
-    height: 30px;
+    height: 20px;
 }
 
 .heartzin {
@@ -704,8 +708,20 @@ footer {
     p {
         font-size: 1rem;
     }
-    ::-webkit-scrollbar {
-        width: 0;
+    #projeto:hover .projects-content::-webkit-scrollbar-thumb {
+        background: transparent;
+    }
+    #center-content:hover .content-info::-webkit-scrollbar-thumb {
+        background: transparent;
+    }
+    #center-content:hover .contact::-webkit-scrollbar-thumb {
+        background: transparent;
+    }
+    #center-content:hover .proJ::-webkit-scrollbar-thumb {
+        background: transparent;
+    }
+    .inspirations:hover .inspirations-content::-webkit-scrollbar-thumb {
+        background: transparent;
     }
 }
 
