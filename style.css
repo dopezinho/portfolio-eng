@@ -433,10 +433,6 @@ footer {
     height: 60px;
 }
 
-.footer-mobile {
-    display: none;
-}
-
 .svg-home-mobile {
     fill: none;
     stroke: #fff;
