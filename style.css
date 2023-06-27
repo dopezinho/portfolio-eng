@@ -339,6 +339,7 @@ svg {
     cursor: pointer;
     display: flex;
     padding: 20px 0;
+    padding-right: 20px;
     transition: 0.5s ease;
 }
 
