@@ -683,6 +683,7 @@ footer {
         align-items: center;
         display: flex;
         justify-content: space-around;
+        margin: 0 100px;
         width: 100%;
     }
     .contact {
