@@ -687,6 +687,7 @@ footer {
     }
     .contact {
         height: 100svh;
+        flex-direction: column;
         margin-right: 0;
         margin-top: 0;
     }
