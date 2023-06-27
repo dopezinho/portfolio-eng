@@ -174,7 +174,7 @@ img {
     cursor: pointer;
     display: flex;
     margin: 0 5px;
-    padding: 15px 0;
+    padding: 2svh 0;
     transition: 0.5s ease;
 }
 
