@@ -476,25 +476,18 @@ footer {
   /* Contact */
 
 .contact {
+    align-items: center;
     background-color: var(--bg-color);
     border-radius: var(--border-radius);
+    display: flex;
     height: 82svh;
     margin-right: 1svh;
     margin-top: 1svh;
     overflow-y: scroll;
 }
 
-.contact-head {
-    align-items: center;
-    display: flex;
-    padding: 30px 20px;
-}
-
-.contact-head h3 {
-    color: #fff;
-}
-
 .contact-info {
+    align-items: center;
     cursor: pointer;
     display: flex;
     flex-wrap: wrap;
