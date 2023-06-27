@@ -5,6 +5,9 @@ const svgContact = document.querySelector(".svg-contact")
 const svgContact1 = document.querySelector(".svg-contact1")
 const svgContactH3 = document.querySelector(".nav-menu-contact-h3")
 const svgProjects = document.querySelector(".svg-projects")
+const svgProjectsAll = document.getElementById("svg-projects")
+const svgProjectsOpen = document.querySelector(".svg-projects-open")
+const svgProjectsOpenAll = document.getElementById("svg-projects-open")
 const svgProjectsH3 = document.querySelector(".projects-head-h3")
 
 /*  LOAD CONTACT  */
@@ -23,14 +26,17 @@ function clickbtnContact() {
     svgProjects.style.fill = "none"
     svgProjects.style.stroke = "#858080"
     svgProjectsH3.style.color = "#858080"
+    svgProjectsAll.style.display = "flex"
+    svgProjectsOpenAll.style.display = "none"
 }
 
 /*  LOAD PROJECTS  */
 
 function clickbtnProjects() {
     load("projects.html", centerContent)
-    svgProjects.style.fill = "#fff"
-    svgProjects.style.stroke = "#fff"
+    svgProjectsAll.style.display = "none"
+    svgProjectsOpenAll.style.display = "flex"
+    svgProjectsOpen.style.fill = "none"
     svgProjectsH3.style.color = "#fff"
     svgContact.style.fill = "none"
     svgContact.style.stroke = "#858080"
