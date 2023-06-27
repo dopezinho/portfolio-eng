@@ -557,20 +557,6 @@ footer {
     transition: 0.2s ease;
 }
 
-.proJ-head {
-    align-items: center;
-    display: flex;
-    padding: 30px 20px;
-}
-
-.proJ-head h3 {
-    color: #fff;
-}
-
-.proJ-head svg {
-    width: 40px;
-}
-
 .proJ-info {
     display: flex;
     flex-wrap: wrap;
