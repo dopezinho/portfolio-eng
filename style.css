@@ -6,7 +6,7 @@
     --scroll-bar: #ffffff77;
     --black: #000;
     --white: #fff;
-    --border-radius: 0;
+    --border-radius: 5px;
   }
 
 * {
@@ -140,7 +140,7 @@ svg {
     display: flex;
     flex-direction: column;
     height: 63svh;
-    margin: 0 1lvh;
+    margin: 0 1svh;
     transition: 0.5s ease;
 }
 
@@ -338,7 +338,7 @@ svg {
     border-radius: var(--border-radius);
     cursor: pointer;
     display: flex;
-    padding: 2svh 0;
+    padding: 20px 0;
     transition: 0.5s ease;
 }
 
@@ -379,8 +379,7 @@ footer {
 
 #heartzin {
     cursor: pointer;
-    height: 3svh;
-    padding-left: 10px;
+    height: 30px;
 }
 
 .heartzin {
@@ -388,21 +387,11 @@ footer {
     stroke-width: 10px;
 }
 
-.footer-center-bfp, .footer-center-tbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer-center-bfp-icon {
-    height: 3.5svh;
-}
-
 .footer-right {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-right: 2svh;
+    padding-right: 20px;
 }
 
 .footer-right img {
@@ -454,7 +443,7 @@ footer {
 .contact-head {
     align-items: center;
     display: flex;
-    padding: 5svh 2svh;
+    padding: 50px 20px;
 }
 
 .contact-head h3 {
@@ -486,7 +475,7 @@ footer {
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 2svh 5svh;
+    padding: 30px;
     transition: 0.5s ease;
 }
 
@@ -534,7 +523,7 @@ footer {
 .proJ-head {
     align-items: center;
     display: flex;
-    padding: 5svh 2svh;
+    padding: 50px 20px;
 }
 
 .proJ-head h3 {
@@ -555,7 +544,7 @@ footer {
     cursor: pointer;
     display: flex;
     justify-content: space-around;
-    padding: 2svh 0;
+    padding: 20px 0;
     transition: 0.5s ease;
     width: 100%;
 }
@@ -567,7 +556,7 @@ footer {
 
 .proJ-info-container h4 {
     display: flex;
-    padding: 0 2svh;
+    padding: 10px;
     justify-content: center;
     width: 40%;
 }
@@ -575,14 +564,14 @@ footer {
 .proJ-info-container p {
     display: flex;
     justify-content: flex-end;
-    padding-right: 2svh;
+    padding-right: 10px;
     width: 30%;
 }
 
 .proJ-info-container-main {
     align-items: center;
     display: flex;
-    padding-left: 5svh;
+    padding-left: 10px;
     width: 30%;
 }
 
@@ -624,22 +613,21 @@ footer {
         height: 0;
     }
     svg {
-        height: 6svh;
+        height: 60px;
     }
     .navig {
         display: none;
     }
     .content-head {
         height: 25svh;
+        margin-right: 0;
+        margin-top: 0;
     }
     .content-info {
         border-radius: 0px;
         height: 75svh;
-        padding-bottom: 9svh;
-    }
-    .content-head-up-right {
-        padding-left: 10svh;
-        width: 60%;
+        padding-bottom: 100px;
+        margin-right: 0;
     }
     .inspirations {
         display: none;
@@ -662,7 +650,6 @@ footer {
         align-items: center;
         display: flex;
         justify-content: space-around;
-        padding: 0 3svh;
         width: 100%;
     }
     .footer-mobile-container, .footer-mobile-container-small {
@@ -671,12 +658,11 @@ footer {
         flex-direction: column;
         justify-content: center;
     }
-    .footer-mobile-icon-small {
-        height: 5svh;
-    }
     .contact {
         height: 100svh;
-        padding-bottom: 8svh;
+        padding-bottom: 100px;
+        margin-right: 0;
+        margin-top: 0;
     }
     .contact-head {
         justify-content: center;
@@ -684,6 +670,8 @@ footer {
     .proJ {
         height: 100svh;
         padding-bottom: 8svh;
+        margin-right: 0;
+        margin-top: 0;
     }
     .proJ-head {
         justify-content: center;
