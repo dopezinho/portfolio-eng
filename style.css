@@ -239,12 +239,14 @@ svg {
 
 #svg-projects {
     height: 35px;
-    margin: 0 10px;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
 #svg-projects-open {
     height: 35px;
-    margin: 0 10px;
+    margin-left: 10px;
+    margin-right: 16px;
 }
 
 #svg-contact-pg {
