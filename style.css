@@ -6,7 +6,7 @@
     --scroll-bar: #ffffff77;
     --black: #000;
     --white: #fff;
-    --border-radius: 5px;
+    --border-radius: 0;
   }
 
 * {
@@ -445,7 +445,7 @@ footer {
 .contact {
     background-color: var(--bg-color);
     border-radius: var(--border-radius);
-    height: 83svh;
+    height: 82svh;
     margin-right: 1svh;
     margin-top: 1svh;
     overflow-y: scroll;
@@ -520,7 +520,7 @@ footer {
 .proJ {
     background-color: var(--bg-color);
     border-radius: var(--border-radius);
-    height: 83svh;
+    height: 82svh;
     margin-right: 1svh;
     margin-top: 1svh;
     overflow-y: scroll;
